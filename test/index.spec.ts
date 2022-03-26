@@ -1,9 +1,15 @@
 import 'mocha';
 import { expect } from 'chai';
+import { add } from '../src/index';
 
-describe ('Prueba', () => {
-  it('Prueba base', () => {
-    expect(1).to.be.equal(1);
+describe ('add function test', () => {
+  it('add(1, 8) returns 9', () => {
+    expect(add(1, 8)).to.be.equal(9);
   });
-
+  it('add(-1, 8) returns 9', () => {
+    expect(add(-1, 8)).to.be.equal(7);
+  });
+  it('add(1, 8) returns 9', () => {
+    expect(add(1.2, 3.5)).to.be.equal(4.7);
+  });
 });
