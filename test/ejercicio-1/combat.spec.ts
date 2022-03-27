@@ -1,6 +1,6 @@
 import 'mocha';
 import { expect } from 'chai';
-import { Fighter } from '../../src/ejercicio-1/fighter';
+// import { Fighter } from '../../src/ejercicio-1/fighter';
 import { Combat } from '../../src/ejercicio-1/combat';
 import { Pokemon } from '../../src/ejercicio-1/pokemon_fighter';
 import { Types } from '../../src/ejercicio-1/pokemon_fighter';
