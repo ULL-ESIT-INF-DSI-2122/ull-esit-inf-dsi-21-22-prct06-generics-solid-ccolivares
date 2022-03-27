@@ -29,7 +29,6 @@ class Combat {
    */
   pokemonDamage(pokemon_A: Pokemon, pokemon_D: Pokemon) : number {
     let damage: number = 0;
-    //console.log(`1 - pokemon de tipo ${pokemon_A.getType()} `)
 
     if (pokemon_A.getType() == Types.fire && pokemon_D.getType() == Types.grass) { // fire > grass (super_effective)
       damage = 50 * (pokemon_A.getAttack() / pokemon_D.getDefense()) * Effectiveness.super_effective;
