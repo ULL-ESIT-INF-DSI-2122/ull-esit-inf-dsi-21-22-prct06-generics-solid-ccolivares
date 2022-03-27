@@ -4,7 +4,21 @@ export { Element };
 
 enum Element {anemo, pyro, electro, hydro, cryo, geo, dendro};
 
+/**
+ * Clase que representa a un personaje de Genshin Impact
+ */
 class GenshinImpact extends Fighter{
+  /**
+   * Constructor de la clase
+   * @param name Nombre del personaje
+   * @param weight Peso del personaje
+   * @param height Altura del personaje
+   * @param attack Ataque del personaje
+   * @param defense Defensa del personaje
+   * @param speed Velocidad del personaje
+   * @param HP Vida del personaje
+   * @param element Elemento que controla el personaje  
+   */
   constructor(protected name: string, protected weight: number, 
               protected height: number, protected attack: number, 
               protected defense: number, protected speed: number, 

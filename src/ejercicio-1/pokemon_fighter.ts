@@ -4,7 +4,21 @@ export { Types };
 
 enum Types {fire, water, grass, electric};
 
+/**
+ * Clase que representa a un luchador Pokemon
+ */
 class Pokemon extends Fighter {
+  /**
+   * Constructor de la clase
+   * @param name Nombre del Pokémon
+   * @param weight Peso del Pokémon
+   * @param height Altura del Pokémon
+   * @param attack Ataque del Pokémon
+   * @param defense Defensa del Pokémon
+   * @param speed Velocidad del Pokémon
+   * @param HP Vida del Pokémon
+   * @param type Tipo del Pokémon
+   */
   constructor(protected name: string, protected weight: number, 
               protected height: number, protected attack: number, 
               protected defense: number, protected speed: number, 

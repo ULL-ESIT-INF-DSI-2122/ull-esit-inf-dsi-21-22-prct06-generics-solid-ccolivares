@@ -14,7 +14,7 @@ enum Effectiveness {super_effective = 2, neutral = 1, not_very_effective = 0.5};
  */
 class Combat {
   /**
-   * Constructor de la clase Combat
+   * Constructor de la clase
    * @param fighter_A Luchador A
    * @param fighter_B Luchador B
    */
